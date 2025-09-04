@@ -1,7 +1,7 @@
-# 🍴 online-food-ordering
+# 🍴 restaurant-ordering-system
 
 ## 📌 Overview
-The **online-food-ordering** is a web-based application that allows customers to place their orders directly from a digital menu.  
+The **restaurant-ordering-system** is a web-based application that allows customers to place their orders directly from a digital menu.  
 It was inspired by real restaurant workflows and designed to simplify the ordering process for both customers and staff.
 
 ## ✨ Features
@@ -20,4 +20,4 @@ It was inspired by real restaurant workflows and designed to simplify the orderi
 ## 🚀 Getting Started
 1. Clone this repository:
    ```bash
-   git clone https://github.com/sifedine01/online-food-ordering.git
+   git clone https://github.com/sifedine01/restaurant-ordering-system.git
