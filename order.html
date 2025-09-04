@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaser Diafa - Orders</title>
+  <link rel="stylesheet" href="style/order.css">
+  <script src="https://kit.fontawesome.com/4f5f087331.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <span>Kaser Diafa</span>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#services">Services</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <button class="chose">Choose Table</button>
+
+  <!-- Section Tables -->
+  <div class="tables">
+    <section id="sec1">
+      <table border="1">
+        <tbody>
+          <tr>
+            <td>Table 1</td><td>Table 2</td><td>Table 3</td><td>Table 4</td><td>Table 5</td>
+          </tr>
+          <tr>
+            <td>Table 6</td><td>Table 7</td><td>Table 8</td><td>Table 9</td><td>Table 10</td>
+          </tr>
+          <tr>
+            <td>Table 11</td><td>Table 12</td><td>Table 13</td><td>Table 14</td><td>Table 15</td>
+          </tr>
+          <tr>
+            <td>Table 16</td><td>Table 17</td><td>Table 18</td><td>Table 19</td><td>Table 20</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+  <div class="back">
+    <button><i class="fas fa-arrow-left"></i> Back to Tables</button>
+    <span class="table-info"></span>
+  </div>
+
+  <!-- Section Menu & Order -->
+  <section id="sec2">
+    <div class="product-menu">
+      <div class="categories">
+        <button class="category-btn active" data-category="tacos">Tacos</button>
+        <button class="category-btn" data-category="burger">Burgers</button>
+        <button class="category-btn" data-category="pizza">Pizzas</button>
+        <button class="category-btn" data-category="drinks">Drinks</button>
+      </div>
+      <div class="menu-items"></div>
+    </div>
+
+    <div class="commande">
+      <h1>Order Info</h1>
+      <div id="info"></div>
+      <div class="payment-summary">
+        <div class="summary">
+          <div class="summary-item">
+              <span>Total:</span> <span id="total">0.00 MAD</span>
+          </div>
+          <div class="summary-item">
+              <span>To Pay:</span> <span id="to-pay">0.00 MAD</span>
+          </div>
+        </div>
+        <div id="orders-container"></div>
+      </div>
+    </div>
+
+    <div class="allMethodes">
+        <div class="payment-methods">
+            <button class="choseM">Chose Methode</button>
+            <button class="pay-btn" data-method="cash">Cash</button>
+            <button class="pay-btn" data-method="card">Card</button>
+        </div>
+        <button class="valider-btn" id="valider-btn">
+        <i class="fas fa-check-circle"></i> Confirm Order</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Kaser Diafa. All rights reserved.</p>
+  </footer>
+
+  <script src="order.js"></script>
+</body>
+</html>
